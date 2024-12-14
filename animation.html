@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            position: relative;
+            animation: move 5s linear 0s infinite normal;
+        }
+        @keyframes move{
+            0%{
+                top: 0px;
+                left: 0px;
+                background-color: deeppink;
+            }
+            25%{
+                top:0px;
+                left: 85%;
+                background-color: purple;
+            }
+            50%{
+                top:350px;
+                left: 85%;
+                background-color: red;
+            }
+            75%{
+                top:400px;
+                left: 0px;
+                background-color: yellow;
+            }
+            100%{
+                top:0px;
+                left: 0px;
+                background-color: lawngreen;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>
